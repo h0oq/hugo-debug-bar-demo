@@ -2,4 +2,4 @@ module h0oq.github.io/hugo-debug-bar-demo
 
 go 1.25.4
 
-require github.com/h0oq/hugo-debug-bar v0.0.0-20251116204912-aacc55e301c3 // indirect
+require github.com/h0oq/hugo-debug-bar v0.0.0-20251116222027-cf37f7f7d119 // indirect
