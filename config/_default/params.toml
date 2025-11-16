@@ -1,0 +1,2 @@
+[HDB]
+  position = "bottom" # either "bottom" or "top" (default position is "top")

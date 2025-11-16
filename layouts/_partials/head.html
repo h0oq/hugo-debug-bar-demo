@@ -1,0 +1,7 @@
+<meta charset="UTF-8">
+<title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+<link rel="alternate icon" type="image/png" href="https://github.githubassets.com/favicons/favicon.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{{- $css := resources.Get "css/styles.css" | minify | fingerprint -}}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" type="text/css" media="screen" integrity="{{ $css.Data.Integrity }}">
+<meta name="robots" content="noindex">

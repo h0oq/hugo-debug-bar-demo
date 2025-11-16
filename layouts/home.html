@@ -1,0 +1,168 @@
+{{ define "title" }}{{ .Site.Title }}{{ end }}
+
+{{ define "main" }}
+  <section class="hero" id="top">
+    <div>
+      <div class="hero-kicker">Simple starter template</div>
+      <h1 class="hero-title">
+        Launch a clean <span>demo site</span> in minutes.
+      </h1>
+      <p class="hero-subtitle">
+        This Hugo page uses a base layout and a home template so you can quickly prototype landing pages.
+      </p>
+
+      <div class="hero-actions">
+        <button class="btn-primary">
+          <span>▶</span> View live demo
+        </button>
+        <button class="btn-secondary">
+          <span>&lt;/&gt;</span> See the code
+        </button>
+      </div>
+
+      <div class="hero-meta">
+        <span>Hugo layout + HTML</span>
+        <span>No build tools required</span>
+        <span>Mobile responsive layout</span>
+      </div>
+    </div>
+
+    <aside class="hero-card" aria-label="Demo stats">
+      <div class="hero-card-header">
+        <div>
+          <div class="hero-card-title">Demo overview</div>
+          <div class="hero-stat-label">A quick snapshot of this page</div>
+        </div>
+        <span class="hero-badge">Live</span>
+      </div>
+
+      <div class="hero-stat">
+        <div class="hero-stat-label">Templates</div>
+        <div>
+          <span class="hero-stat-value">2</span>
+        </div>
+      </div>
+
+      <div class="hero-stat">
+        <div class="hero-stat-label">Tech stack</div>
+        <div>
+          <span class="hero-stat-pill">Hugo</span>
+          <span class="hero-stat-pill" style="margin-left:0.25rem;">HTML5/CSS3</span>
+        </div>
+      </div>
+
+      <div class="hero-stat">
+        <div class="hero-stat-label">Setup time</div>
+        <div class="hero-stat-value">Under 1 min</div>
+      </div>
+
+      <hr class="hero-divider">
+
+      <p class="hero-note">
+        Tip: drop these templates into the <strong>layouts</strong> folder of your Hugo site and start editing.
+      </p>
+    </aside>
+  </section>
+
+  <section id="features">
+    <h2>Built‑in sections</h2>
+    <p class="section-intro">
+      The layout includes a few core sections you usually need when presenting a simple product or idea.
+    </p>
+
+    <div class="features">
+      <article class="feature-card">
+        <div class="feature-icon">⚡</div>
+        <h3>Hero & navigation</h3>
+        <p>
+          A sticky header and hero section highlight your main message and give visitors quick navigation.
+        </p>
+        <div class="feature-meta">
+          Uses Hugo’s base template plus semantic HTML elements.
+        </div>
+      </article>
+
+      <article class="feature-card">
+        <div class="feature-icon">📦</div>
+        <h3>Feature highlights</h3>
+        <p>
+          Card‑style blocks let you outline the benefits, features, or selling points of your demo product.
+        </p>
+        <div class="feature-meta">
+          Responsive grid built with CSS <code>display: grid</code>.
+        </div>
+      </article>
+
+      <article class="feature-card">
+        <div class="feature-icon">📨</div>
+        <h3>Contact demo form</h3>
+        <p>
+          A simple form illustrates how to capture a name, email, and message from your visitors.
+        </p>
+        <div class="feature-meta">
+          Ready for you to hook into a backend or external form service.
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="demo">
+    <h2>Live demo area</h2>
+    <p class="section-intro">
+      Use this area as a sandbox for user actions, form submissions, or any interactive examples you want to show.
+    </p>
+
+    <div class="demo-grid">
+      <div class="demo-form">
+        <h3>Request a demo</h3>
+        <form>
+          <label for="name">Name</label>
+          <input id="name" type="text" placeholder="Ada Lovelace">
+
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="you@example.com">
+
+          <label for="size">Team size</label>
+          <select id="size">
+            <option>Just me</option>
+            <option>2–10 people</option>
+            <option>11–50 people</option>
+            <option>51+ people</option>
+          </select>
+
+          <label for="message">What would you like to build?</label>
+          <textarea id="message" placeholder="Share a sentence or two about your project."></textarea>
+
+          <button type="submit" class="btn-primary" style="margin-top:0.25rem;">
+            <span>✉</span> Send request
+          </button>
+        </form>
+      </div>
+
+      <aside class="demo-preview" id="code-snippet">
+        <h3>How to use this with Hugo</h3>
+        <span class="preview-badge">Getting started</span>
+        <p>
+          The home page uses <code>layouts/_default/baseof.html</code> as a wrapper and <code>layouts/index.html</code> for its content block.
+        </p>
+        <pre><code>hugo new site my-demo
+# copy baseof.html into layouts/_default/
+# copy index.html into layouts/
+hugo server</code></pre>
+        <p style="margin-top:0.75rem;">
+          Open <code>http://localhost:1313</code> to see your demo site, then customize the HTML sections.
+        </p>
+      </aside>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About this demo</h2>
+    <p class="section-intro">
+      This is a single page meant to be easy to read, customize, and extend with your own styles or JavaScript.
+    </p>
+    <p class="section-intro">
+      You can strip it down to the bare essentials or duplicate sections to grow it into a multi‑page Hugo site.
+    </p>
+  </section>
+{{ end }}
