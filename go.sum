@@ -14,3 +14,5 @@ github.com/h0oq/hugo-debug-bar v0.0.0-20251117151846-591a6696403d h1:lwP1nlmDyjh
 github.com/h0oq/hugo-debug-bar v0.0.0-20251117151846-591a6696403d/go.mod h1:8QvKkP20B430MrNtZRwS7lEyw6JZv2b0bm2fmtNKTCc=
 github.com/h0oq/hugo-debug-bar v0.0.0-20251120091844-7bc0d50cc1e2 h1:Qrqa1pGfEOkJ6Wm3ygkJ0mPzVaQMT0IIxsznFzplL4w=
 github.com/h0oq/hugo-debug-bar v0.0.0-20251120091844-7bc0d50cc1e2/go.mod h1:8QvKkP20B430MrNtZRwS7lEyw6JZv2b0bm2fmtNKTCc=
+github.com/h0oq/hugo-debug-bar v0.0.0-20251120095314-a6efe4cceb29 h1:14hzidSWkMoPDFBX/Jf8n3SdrT4NOkETZhxNjn8xMrA=
+github.com/h0oq/hugo-debug-bar v0.0.0-20251120095314-a6efe4cceb29/go.mod h1:8QvKkP20B430MrNtZRwS7lEyw6JZv2b0bm2fmtNKTCc=
