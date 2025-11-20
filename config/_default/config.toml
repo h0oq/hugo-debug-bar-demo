@@ -2,4 +2,4 @@ baseURL = 'https://h0oq.github.io/hugo-debug-bar-demo'
 languageCode = 'en-us'
 title = 'Debug bar – Hugo'
 
-disableKinds = ["taxonomy", "RSS", "sitemap"]
+disableKinds = ["RSS", "sitemap"]
